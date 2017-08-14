@@ -1,0 +1,27 @@
+{
+  "name": "part-1",
+  "version": "1.0.0",
+  "description": "Build a very basic web API which conforms to the routes listed in the questions.md",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/eobaah/phase-3-challenge.git"
+  },
+  "author": "Eugene Baah",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/eobaah/phase-3-challenge/issues"
+  },
+  "homepage": "https://github.com/eobaah/phase-3-challenge#readme",
+  "dependencies": {
+    "body-parser": "^1.17.2",
+    "express": "^4.15.4"
+  },
+  "devDependencies": {
+    "morgan": "^1.8.2",
+    "nodemon": "^1.11.0"
+  }
+}
