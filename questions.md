@@ -159,9 +159,9 @@ User Stories: Ensure that your schema design can satisfy the following scenarios
 
 Command line interface requirements
 - [x] __10__: Create a command line Node script called `store.js`
-- [ ] __20__: Command `product-list` has been implemented
-- [ ] __40__: Command `shopper-orders` has been implemented
-- [ ] __30__: Command `real-shoppers` has been implemented
+- [x] __20__: Command `product-list` has been implemented
+- [x] __40__: Command `shopper-orders` has been implemented
+- [x] __30__: Command `real-shoppers` has been implemented
 
 Write tests with [Mocha](https://mochajs.org/) + [Chai](http://chaijs.com/) in `database_test.js` that assert:
 - [x] __20__: The database function for the command `product-list` is tested
