@@ -1,0 +1,25 @@
+{
+  "name": "part-2",
+  "version": "1.0.0",
+  "description": "Build a command line tool that emulates a grocery store. The tool will interact with a PostgreSQL database to store and retrieve information. You will have to design a database to store grocery items, shoppers, and orders. Let's call the database grocery_store.",
+  "main": "app.js",
+  "scripts": {
+    "test": "mocha js:babel-core/register ./database_test.js",
+    "dbinit": "dropdb grocery_store; createdb grocery_store; psql grocery_store < ./schema.sql; psql grocery_store < ./load-data.sql",
+    "dropdb": "dropdb grocery_store",
+    "createdb": "createdb grocery_store",
+    "schemaUpdate": "psql grocery_store < ./schema.sql",
+    "seedData": "psql grocery_store < ./load-data.sql"
+  },
+  "author": "Eugene Baah",
+  "license": "MIT",
+  "devDependencies": {
+    "babel-cli": "^6.24.1",
+    "babel-preset-env": "^1.6.0",
+    "chai": "^4.1.1"
+  },
+  "dependencies": {
+    "pg-promise": "^6.3.8",
+    "postgresql": "0.0.1"
+  }
+}
