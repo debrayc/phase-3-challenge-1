@@ -4,6 +4,7 @@
   "description": "Build a very basic web API which conforms to the routes listed in the questions.md",
   "main": "app.js",
   "scripts": {
+    "start": "nodemon app.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
